@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles.css"></link>
+    <link rel="preconnect" href="https://fonts.googleapis.com">   
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans&family=Montserrat&family=Kalam&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  </head>
+  <body>
+    <header class="header" id="'heading">
+      <!-- Logo -->
+      <a href="#" class="logo">TK's CV</a>
+      <!-- Hamburger icon -->
+      <input class="side-menu" type="checkbox" id="side-menu"/>
+      <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
+      <!-- Menu -->
+      <nav class="nav" id="navbar">
+          <ul class="menu">
+              <li><a href="#About">About</a></li>
+              <li><a href="#Background">Background</a></li>
+              <li><a href="#Skills">Skills</a></li>
+              <li><a href="#Projects">Projects</a></li>
+              <li><a href="#Experiences">Experiences</a></li>
+          </ul>
+        </nav>
+      
+    </header>
+
+
+    <div class="top-container">
+      <h1>I'm Thiam Kok.</h1>
+      <p id="About" class="subhead-head">a <span class="pro">pro</span>grammer.</p>
+    </div>
+
+    <div class="middle-container">
+      <div class="profile">
+        <img class="dp" src="Images/TK-DP_Circle.png" alt="TK Display Picture" data-aos="fade-right">
+        <h2 id="Background">Hello.</h2>
+        <p data-aos="fade-left">I am an aspiring full stack developer; with a love for smol cats and dogs.</p>
+      </div>
+      <hr>
+      <div class="background">
+        <h2 id="Skills">My Background.</h2>
+        <div class="background-row">
+          <img class="" src="" alt="">
+          <p data-aos="fade-right">I am a NUS Mechanical Engineering Bachelor who fell in love with programming.</p>
+        </div>
+        <hr>
+        <h2 id="Projects">My Skills.</h2>
+        <div class="skill-row">
+          <img class="" src="" alt="">
+          <table class="skill-table" cellspacing ="5" data-aos="fade-left">
+            <tr>
+              <td>
+                <table cellspacing = "5">
+                  <tr>
+                    <td>Python</td><td>⭐⭐⭐⭐⭐</td>
+                  </tr>
+                  <tr>
+                    <td>Java</td><td>⭐⭐⭐⭐⭐</td>
+                  </tr>
+                  <tr>
+                    <td>HTML</td><td>⭐⭐⭐⭐⭐</td>
+                  </tr>
+                </table>
+              </td>
+              <td>
+                <table cellspacing = "5">
+                  <tr>
+                    <td>JavaScript</td><td>⭐⭐⭐⭐⭐</td>
+                  </tr>
+                  <tr>
+                    <td>SQL</td><td>⭐⭐⭐⭐</td>
+                  </tr>
+                  <tr>
+                    <td>Kotlin</td><td>⭐⭐⭐</td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <hr>
+      <h2>My Projects.</h2>
+      <h3 class="subhead">Personal Projects</h3>
+      <div class="projects-div">
+        <div class="personal-project-div">
+          <div class="project-content">
+          <img class="personal-projects-fb" src="Images/Flappy-Bird(Circle).gif" alt="Flappy-Bird with Thiam Kok" data-aos="fade-right">
+          <h3>Flappy-Bird with Thiam Kok</h3>
+          <p class="project-para">After the original flappy bird was delisted a few years ago, I was too addicted to this little ave to give it up! 
+            So I made my very own "Flappy-Bird with Thiam Kok" with the use of Pygame module in Python to make it; relying heavily on inheritence features.</p>
+          </div>
+          <br>
+          <div class="project-content">
+          <img class="personal-projects-sg" src="Images/Snake-Game(Circle).gif" alt="Snake Game" data-aos="fade-right">
+          <h3>Snake Game</h3>
+          <p class="project-para">Inspired from the classic Nokias that we know and love, the classic snake game was one I wanted to relive and play in its former glory. 
+            this game was built with a nostalgic heart, utilising modern Python for its Object Oriented Programming to make it come to life.</p>
+          </div>
+          <br>
+          <div class="project-content">
+          <img class="personal-projects-w2e" src="Images/What2eat(Circle).gif" alt="What2eat?" data-aos="fade-right">
+          <h3>What2eat?</h3>
+          <p class="project-para">Oh no! Your hungry but can't decide what to have for breakfast, lunch or dinner? Fret not! 
+            "What2eat?" is here to save your date! Simply fill in your top 3 meal choices into this Kotlin based app and get eating! (Locality features coming soon...)</p>
+          </div>
+        </div>
+        <br>
+        <h3 class="subhead">NUS Projects</h3>
+        <div class="nus-projects-div">
+          <div class="project-content">
+          <img class="nus-projects-hf" src="Images/Heatflow(Circle).gif" alt="Heat Flow Simulation" data-aos="fade-left">
+          <h3>Heat Flow Simulation</h3>
+          <p class="project-para">To simulate and understand heatflow from a source through a material, this simulation is to serve as a visual representation of the process across a period of time.
+            This was processed using the Runge-Kutta method to resolve the differential equations through Python.</p>
+          </div>
+          <br>
+          <div class="project-content">
+          <img class="nus-projects-dp" src="Images/Pendulum(Circle).gif" alt="Pendulum Motion Simulation" data-aos="fade-left">
+          <h3>Pendulum Motion Simulation</h3>
+          <p class="project-para">For my final year project, I reimagined the classic wheel mechanism as a double pendulum mechanism as represented visually here. 
+            This was accomplished using Python to resolve for numerical solutions in 2-dimensional differential equations.</p>
+          </div>
+        </div>
+      </div>
+      <br>
+      <hr>
+      <h2 id="Experiences">Work Experiences.</h2>
+      <div class="work-experience">
+        <table class="work-table" data-aos="fade-right">
+          <thead>
+              <tr>
+                  <th>Period</th>
+                  <th>Work</th>
+              </tr>
+          </thead>
+          <tr>
+              <td>Oct 2022 - Present</td>
+              <td>Consultant (Application), CPF Board, Singapore</td>
+          </tr>
+          <tr>
+              <td>Aug 2019 - Oct 2022</td>
+              <td>Tutor, EduCare4u Pte Ltd, Singapore</td>
+          </tr>
+          <tr>
+              <td>Jul 2022 - Sep 2022</td>
+              <td>R&D Engineer, Shimano (Singapore) Pte Ltd</td>
+          </tr>
+          <tr>
+              <td>Jul 2020 - Dec 2022</td>
+              <td>R&D Intern, Venture Corporation Ltd, Singapore</td>
+          </tr>
+      </table>
+      </div>
+      <hr>
+      <h2>Get In Touch.</h2>
+      <div class="contact-me">
+        <p>Interested in the projects that I have partook in?</p> 
+        <p>Contact me for more info!</p>
+        <a class="btn" href="mailto:thiamkok.chua@gmail.com">CONTACT ME</a>
+      </div>
+    </div>
+    <div class="bottom-container">
+      <a class="footer-link" href="https://www.linkedin.com/in/chua-thiam-kok/">LinkedIn</a>
+      <a class="footer-link" href="https://github.com/Skyler1097">GitHub</a>
+      <p class="copyright">©2022 Chua Thiam Kok</p>
+    </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 3000,
+        once: true,
+      });
+    </script>
+    <script>
+      // const About = document.getElementById("About");
+      // const Background = document.getElementById("Background");
+      // const Skills = document.getElementById("Skills");
+      // const Projects = document.getElementById("Projects");
+      // const Experiences = document.getElementById("Experiences");
+      
+      // About.classList.toggle('active');
+      // Background.classList.toggle('active');
+      // Skills.classList.toggle('active');
+      // Projects.classList.toggle('active');
+      // Experiences.classList.toggle('active');
+
+      // document.onclick = function(clickEvent){
+      //   About.classList.remove('active');
+      //   Background.classList.remove('active');
+      //   Skills.classList.remove('active');
+      //   Projects.classList.remove('active');
+      //   Experiences.classList.remove('active');
+      // }
+    </script>
+  </body>
+</html>
