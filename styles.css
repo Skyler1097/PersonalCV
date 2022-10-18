@@ -1,205 +1,321 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="icon" href="favicon.ico">
-    <link rel="stylesheet" href="styles.css"></link>
-    <link rel="preconnect" href="https://fonts.googleapis.com">   
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans&family=Montserrat&family=Kalam&display=swap" rel="stylesheet">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  </head>
-  <body>
-    <header id="header">
-      <a class="logo">TK's CV</a>
-      <div id="toggle"></div>
-      <div id="navbar" class="nav">
-        <ul>
-          <li><a href="#About">About</a></li>
-          <li><a href="#Background">Background</a></li>
-          <li><a href="#Skills">Skills</a></li>
-          <li><a href="#Projects">Projects</a></li>
-          <li><a href="#Experiences">Experiences</a></li>
-        </ul>
-      </div>
-    </header>
-    <div class="top-container">
-      <h1>I'm Thiam Kok.</h1>
-      <p class="subhead-head">a <span class="pro">pro</span>grammer.</p>
-    </div>
-    <br id="About">
-    <div class="middle-container">
-      <div class="profile">
-        <img class="dp" src="Images/TK-DP_Circle.png" alt="TK Display Picture" data-aos="fade-right">
-        <h2>Hello.</h2>
-        <br id="Background">
-        <p data-aos="fade-left">I am an aspiring full stack developer; with a love for smol cats and dogs.</p>
-        <p data-aos="fade-left">Self-taught programming and coding, in hopes to create a better world through the power of software.</p>
-      </div>
-      <br>
-      <hr>
-      <div class="background">
-        <h2>My Background.</h2>
-        <div class="background-row">
-          <img class="" src="" alt="">
-          <br id="Skills">
-          <p data-aos="fade-right">I am an NUS Mechanical Engineering Bachelor who fell in love with programming.</p>
-          <p data-aos="fade-right">I excel at overcoming obstacles with my problem solving and analytical skills.</p>
-        </div>
-        <hr>
-        <h2>My Skills.</h2>
-        <div class="skill-row">
-          <img class="" src="" alt="">
-          <p>Here are some of my programming skills and languages I picked up so far!</p>
-          <table class="skill-table" cellspacing ="5" data-aos="fade-left">
-            <tr>
-              <td>
-                <table cellspacing = "5">
-                  <tr>
-                    <td id="Projects">Python</td><td>⭐⭐⭐⭐⭐</td>
-                  </tr>
-                  <tr>
-                    <td>Java</td><td>⭐⭐⭐⭐⭐</td>
-                  </tr>
-                  <tr>
-                    <td>HTML</td><td>⭐⭐⭐⭐⭐</td>
-                  </tr>
-                </table>
-              </td>
-              <td>
-                <table cellspacing = "5">
-                  <tr>
-                    <td>JavaScript</td><td>⭐⭐⭐⭐⭐</td>
-                  </tr>
-                  <tr>
-                    <td>SQL</td><td>⭐⭐⭐⭐</td>
-                  </tr>
-                  <tr>
-                    <td>Kotlin</td><td>⭐⭐⭐</td>
-                  </tr>
-                </table>
-              </td>
-            </tr>
-          </table>
-        </div>
-      </div>
-      <hr>
-      
-      <h2>My Projects.</h2>
-      <h3 class="subhead">Personal Projects</h3>
-      <div class="projects-div">
-        <div class="personal-project-div">
-          <div class="project-content">
-          <img class="personal-projects-fb" src="Images/Flappy-Bird(Circle).gif" alt="Flappy-Bird with Thiam Kok" data-aos="fade-right">
-          <h3>Flappy-Bird with Thiam Kok</h3>
-          <p class="project-para">After the original flappy bird was delisted a few years ago, I was too addicted to this little ave to give it up! 
-            So I made my very own "Flappy-Bird with Thiam Kok" with the use of Pygame module in Python to make it; relying heavily on inheritence features.</p>
-          </div>
-          <br>
-          <div class="project-content">
-          <img class="personal-projects-sg" src="Images/Snake-Game(Circle).gif" alt="Snake Game" data-aos="fade-right">
-          <h3>Snake Game</h3>
-          <p class="project-para">Inspired from the classic Nokias that we know and love, the classic snake game was one I wanted to relive and play in its former glory. 
-            this game was built with a nostalgic heart, utilising modern Python for its Object Oriented Programming to make it come to life.</p>
-          </div>
-          <br>
-          <div class="project-content">
-          <img class="personal-projects-w2e" src="Images/What2eat(Circle).gif" alt="What2eat?" data-aos="fade-right">
-          <h3>What2eat?</h3>
-          <p class="project-para">Oh no! Your hungry but can't decide what to have for breakfast, lunch or dinner? Fret not! 
-            "What2eat?" is here to save your date! Simply fill in your top 3 meal choices into this Kotlin based app and get eating! (Locality features coming soon...)</p>
-          </div>
-        </div>
-        <br>
-        <h3 class="subhead">NUS Projects</h3>
-        <div class="nus-projects-div">
-          <div class="project-content">
-          <img class="nus-projects-hf" src="Images/Heatflow(Circle).gif" alt="Heat Flow Simulation" data-aos="fade-left">
-          <h3>Heat Flow Simulation</h3>
-          <p class="project-para">To simulate and understand heatflow from a source through a material, this simulation is to serve as a visual representation of the process across a period of time.
-            This was processed using the Runge-Kutta method to resolve the differential equations through Python.</p>
-          </div>
-          <br>
-          <div class="project-content">
-          <img class="nus-projects-dp" src="Images/Pendulum(Circle).gif" alt="Pendulum Motion Simulation" data-aos="fade-left">
-          <h3>Pendulum Motion Simulation</h3>
-          <p class="project-para">For my final year project, I reimagined the classic wheel mechanism as a double pendulum mechanism as represented visually here. 
-            This was accomplished using Python to resolve for numerical solutions in 2-dimensional differential equations.</p>
-          </div>
-        </div>
-      </div>
-      <br id="Experiences">
-      <hr>
-      <h2>Work Experiences.</h2>
-      <div class="work-experience">
-        <table class="work-table" data-aos="fade-right">
-          <thead>
-              <tr>
-                  <th>Period</th>
-                  <th>Work</th>
-              </tr>
-          </thead>
-          <tr>
-              <td>Oct 2022 - Present</td>
-              <td>Consultant (Application), CPF Board, Singapore</td>
-          </tr>
-          <tr>
-              <td>Aug 2019 - Oct 2022</td>
-              <td>Tutor, EduCare4u Pte Ltd, Singapore</td>
-          </tr>
-          <tr>
-              <td>Jul 2022 - Sep 2022</td>
-              <td>R&D Engineer, Shimano (Singapore) Pte Ltd</td>
-          </tr>
-          <tr>
-              <td>Jul 2020 - Dec 2022</td>
-              <td>R&D Intern, Venture Corporation Ltd, Singapore</td>
-          </tr>
-      </table>
-      </div>
-      <hr>
-      <h2>Get In Touch.</h2>
-      <div class="contact-me">
-        <p>Interested in the projects that I have partook in?</p> 
-        <p>Contact me for more info!</p>
-        <a class="btn" href="mailto:thiamkok.chua@gmail.com">CONTACT ME</a>
-      </div>
-    </div>
-    <div class="bottom-container">
-      <a class="footer-link" href="https://www.linkedin.com/in/chua-thiam-kok/">LinkedIn</a>
-      <a class="footer-link" href="https://github.com/Skyler1097">GitHub</a>
-      <p class="copyright">©2022 Chua Thiam Kok</p>
-    </div>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-      AOS.init({
-        duration: 3000,
-        once: true,
-      });
-    </script>
-    <script>
-      const header = document.getElementById('header');
-      const toggle = document.getElementById('toggle');
-      const navbar = document.getElementById('navbar');
+html {
+  scroll-behavior: smooth;
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"); /* import font */
+:root {
+  --white: #f9f9f9;
+  --black: #36383f;
+  --gray: #85888c;
+} /* variables*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  background-color: var(--black);
+  box-shadow: 1px 1px 5px 0px var(--gray);
+  position: sticky;
+  top: 0;
+  right: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  z-index: 999;
+}
+.logo {
+  display: block;
+  color: var(--white);
+  font-size: 60px;
+  text-align: left;
+  padding-left: 60px;
+  top: 10px;
+  font-family: "Kalam", cursive;
+  background-color: var(--black);
+}
+#toggle {
+  position: absolute;
+  top: 45px;
+  right: 25px;
+  width: 40px;
+  height: 40px;
+  background-color: var(--black);
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#toggle::before {
+  content: "";
+  position: absolute;
+  width: 28px;
+  height: 2px;
+  background: white;
+  transform: translateY(-5px);
+  transition: 0.2s;
+}
+#toggle::after {
+  content: "";
+  position: absolute;
+  width: 28px;
+  height: 2px;
+  background: white;
+  transform: translateY(5px);
+  transition: 0.2s;
+}
+#toggle.active::before {
+  transform: translateY(0px) rotate(45deg);
+}
+#toggle.active::after {
+  transform: translateY(0px) rotate(-45deg);
+}
+#navbar {
+  position: absolute;
+  height: 60px;
+  right: 60px;
+  background-color: var(--black);
+  transition: 0.5s;
+  width: 0px;
+  top: 20px;
+  overflow: hidden;
+}
+#navbar.active {
+  width: 590px;
+}
+#navbar ul {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+}
+#navbar ul li {
+  list-style: none;
+}
+#navbar ul li a {
+  line-height: 60px;
+  height: 60px;
+  color: var(--white);
+  display: inline-block;
+  text-decoration: none;
+  padding: 0px 15px;
+  letter-spacing: 2px;
+}
+#navbar ul li a:hover {
+  background-color: transparent;
+  color: var(--gray);
+}
+@media (max-width: 940px) {
+  #navbar {
+    position: absolute;
+  }
+  #navbar.active {
+    background-color: var(--black);
+    height: 350px;
+    width: 50%;
+    align-items: center;
+  }
+  #navbar ul {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  #navbar ul li {
+    padding-right: 25px;
+  }
+}
+body {
+  margin: 0;
+  font-family: "Merriweather Sans", sans-serif;
+  line-height: 2;
+  font-size: 100%;
+  text-align: center;
+}
+.dp {
+  margin-top: 50px;
+}
+.pro {
+  text-decoration: underline;
+  color: #db4437;
+}
+h1 {
+  /* 100%:16px */
+  color: #4285f4;
+  font-size: 562.5%;
+  margin: 0 auto 0 auto;
+  font-family: "Kalam", cursive;
+}
+.subhead-head {
+  color: #f4b400;
+  font-weight: bolder;
+}
+h2 {
+  color: #0f9d58;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  margin: 30px auto 30px auto;
+}
+h3 {
+  color: #4285f4;
+}
+hr {
+  border-style: dotted none none none;
+  height: 0;
+  border-width: 10px;
+  width: 20%;
+  color: grey;
+  margin: 20px auto 20px auto;
+}
+p {
+  font-weight: normal;
+  font-family: "Merriweather Sans", sans-serif;
+  margin: 0 auto 0 auto;
+  line-height: 2;
+}
+.top-container {
+  background-color: #e0f2f1;
+  padding: 20px;
+  /*margin --> clockwise, top, rght, bottom, left*/
+  margin: 0 auto 0 auto;
+  text-align: center;
+  font-family: sans-serif;
+}
+.middle-container {
+  margin: auto auto 30px auto;
+  background-color: none;
+}
 
-      toggle.onclick = function(){
-        toggle.classList.toggle('active');
-        navbar.classList.toggle('active');
-        header.classList.toggle('active');
-      }
-      navbar.onclick = function(){
-        navbar.classList.remove('active');
-        toggle.classList.remove('active');
-        header.classList.remove('active');
-      }
-      // document.onclick = function(){
-      //   toggle.classList.remove('active');
-      //   navbar.classlist.remove('active');
-      //   header.classList.remove('active');
-      // }
-    </script>
+.skill-table {
+  margin: 0 auto 0 auto;
+  text-align: left;
+}
+.projects-div {
+  width: 50%;
+  margin: auto;
+  text-align: left;
+}
+.project-content {
+  margin: 100px auto;
+}
+.personal-project-div {
+  margin: auto;
+}
+.project-para {
+  text-align: left;
+  margin: auto;
+  font-family: "Merriweather Sans", sans-serif;
+}
+.personal-projects-fb {
+  width: 25%;
+  margin: auto 30px auto auto;
+  float: left;
+}
+.personal-projects-sg {
+  width: 25%;
+  margin: auto 30px auto auto;
+  float: left;
+}
+.personal-projects-w2e {
+  width: 25%;
+  margin: auto 30px auto auto;
+  float: left;
+}
+.subhead {
+  margin: 50px auto auto auto;
+  text-align: center;
+  color: #db4437;
+}
+.nus-projects-div {
+  margin: auto;
+}
+.nus-projects-hf {
+  width: 25%;
+  margin: auto auto 30px auto;
+  float: right;
+  animation: slide_from_right 1s ease-in-out;
+}
+.nus-projects-dp {
+  width: 25%;
+  margin: auto auto 30px auto;
+  float: right;
+  animation: slide_from_right 1s ease-in-out;
+}
+.work-table {
+  margin: auto;
+  animation: slide_from_left 1s ease-in-out;
+}
+table.work-table {
+  border: 2px solid #000000;
+  text-align: left;
+  border-collapse: collapse;
+}
+table.work-table td,
+table.work-table th {
+  border: 1px solid #000000;
+  padding: 9px 5px;
+}
+table.work-table tbody td {
+  font-size: 13px;
+}
+table.work-table thead {
+  border-bottom: 3px solid #000000;
+}
+table.work-table thead th {
+  font-size: 15px;
+  font-weight: bold;
+  color: #000000;
+  text-align: left;
+  border-left: 0px solid #000000;
+}
+table.work-table thead th:first-child {
+  border-left: none;
+}
 
-  </body>
-</html>
+table.work-table tfoot td {
+  font-size: 14px;
+}
+.bottom-container {
+  background-color: #e0f2f1;
+  padding: 20px 0 20px;
+}
+.btn {
+  background: #4285f4;
+  background-image: -webkit-linear-gradient(top, #4285f4, #2980b9);
+  background-image: -moz-linear-gradient(top, #4285f4, #2980b9);
+  background-image: -ms-linear-gradient(top, #4285f4, #2980b9);
+  background-image: -o-linear-gradient(top, #4285f4, #2980b9);
+  background-image: linear-gradient(to bottom, #4285f4, #2980b9);
+  -webkit-border-radius: 30;
+  -moz-border-radius: 30;
+  border-radius: 30px;
+  font-family: sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+.footer-link {
+  text-decoration: none;
+  color: #f4b400;
+  font-family: "Montserrat", sans-serif;
+  margin: 30px 20px;
+  font-weight: bold;
+}
+.footer-link:hover {
+  color: #4285f4;
+}
+.copyright {
+  color: #0f9d58;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+a {
+  text-decoration: none;
+}
