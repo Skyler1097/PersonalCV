@@ -13,7 +13,7 @@ html {
   box-sizing: border-box;
 }
 section {
-  padding-top: 10%;
+  padding-top: 100px;
 }
 header {
   background-color: var(--black);
@@ -33,7 +33,7 @@ header {
   text-align: left;
   padding-left: 60px;
   top: 10px;
-  font-family: "Kalam", cursive;
+  font-family: "Montserrat", cursive;
   background-color: var(--black);
 }
 #toggle {
@@ -181,7 +181,7 @@ p {
   font-family: sans-serif;
 }
 .middle-container {
-  margin: auto auto 30px auto;
+  margin: auto;
   background-color: none;
 }
 
@@ -193,6 +193,7 @@ p {
   width: 50%;
   margin: auto;
   text-align: left;
+  padding-bottom: 100px;
 }
 .project-content {
   margin: 100px auto;
@@ -204,19 +205,20 @@ p {
   text-align: left;
   margin: auto;
   font-family: "Merriweather Sans", sans-serif;
+  padding-bottom: 50px;
 }
 .personal-projects-fb {
-  width: 25%;
+  width: 30%;
   margin: auto 30px auto auto;
   float: left;
 }
 .personal-projects-sg {
-  width: 25%;
+  width: 30%;
   margin: auto 30px auto auto;
   float: left;
 }
 .personal-projects-w2e {
-  width: 25%;
+  width: 30%;
   margin: auto 30px auto auto;
   float: left;
 }
@@ -229,13 +231,13 @@ p {
   margin: auto;
 }
 .nus-projects-hf {
-  width: 25%;
+  width: 30%;
   margin: auto auto 30px auto;
   float: right;
   animation: slide_from_right 1s ease-in-out;
 }
 .nus-projects-dp {
-  width: 25%;
+  width: 30%;
   margin: auto auto 30px auto;
   float: right;
   animation: slide_from_right 1s ease-in-out;
@@ -243,6 +245,9 @@ p {
 .work-table {
   margin: auto;
   animation: slide_from_left 1s ease-in-out;
+}
+.contact-me {
+  padding-bottom: 50px;
 }
 table.work-table {
   border: 2px solid #000000;
@@ -275,7 +280,7 @@ table.work-table tfoot td {
   font-size: 14px;
 }
 .bottom-container {
-  background-color: #e0f2f1;
+  background-color: var(--black);
   padding: 20px 0 20px;
 }
 .btn {
