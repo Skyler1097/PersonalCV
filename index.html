@@ -17,11 +17,11 @@
       <div id="toggle"></div>
       <div id="navbar" class="nav">
         <ul>
-          <li><a href="#About-section">About</a></li>
-          <li><a href="#Background-section">Background</a></li>
-          <li><a href="#Skills-section">Skills</a></li>
-          <li><a href="#Projects-section">Projects</a></li>
-          <li><a href="#Experiences-section">Experiences</a></li>
+          <li><a href="" onclick="scrollSmoothTo('About-section')">About</a></li>
+          <li><a href="" onclick="scrollSmoothTo('Background')">Background</a></li>
+          <li><a href="" onclick="scrollSmoothTo('Skills-section')">Skills</a></li>
+          <li><a href="" onclick="scrollSmoothTo('Projects-section')">Projects</a></li>
+          <li><a href="" onclick="scrollSmoothTo('Experiences-section')">Experiences</a></li>
         </ul>
       </div>
     </header>
@@ -209,12 +209,16 @@
         toggle.classList.remove('active');
         header.classList.remove('active');
       }
-      // document.onclick = function(){
-      //   toggle.classList.remove('active');
-      //   navbar.classlist.remove('active');
-      //   header.classList.remove('active');
-      // }
+      const functionforscroll = function(id){
+        window.scrollTo(0,$(id).offset(),top-85);
+      }
+      function scrollSmoothTo(elementId) {
+      var element = document.getElementById(elementId);
+      element.scrollIntoView({
+      block: 'start',
+      behavior: 'smooth'
+        });
+      }
     </script>
-
   </body>
 </html>
