@@ -1,5 +1,7 @@
-html {
+html,
+body{
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"); /* import font */
 :root {
