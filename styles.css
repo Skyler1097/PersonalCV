@@ -126,6 +126,10 @@ header {
   #navbar ul li {
     padding-right: 20px;
   }
+  header.active {
+    height: 400px;
+    transition: 0.8s;
+  }
 }
 body {
   font-family: "Merriweather Sans", sans-serif;
