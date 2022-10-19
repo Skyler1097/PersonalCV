@@ -20,7 +20,8 @@ header {
   background-color: var(--black);
   box-shadow: 1px 1px 5px 0px var(--gray);
   position: absolute;
-  top: 0px;
+  top: 0;
+  right: 0;
   width: 100%;
   display: flex;
   justify-content: space-between;
