@@ -1,5 +1,5 @@
 html,
-body{
+body {
   scroll-behavior: smooth;
   overflow-x: hidden;
 }
@@ -20,7 +20,7 @@ section {
 header {
   background-color: var(--black);
   box-shadow: 1px 1px 5px 0px var(--gray);
-  position: sticky;
+  position: absolute;
   top: 0;
   right: 0;
   width: 100%;
@@ -110,7 +110,8 @@ header {
 }
 @media (max-width: 1045px) {
   #navbar {
-    position: absolute;
+    position: relative;
+    transition: 0.5s;
   }
   #navbar.active {
     background-color: var(--black);
@@ -343,4 +344,3 @@ a {
   text-decoration: none;
   cursor: pointer;
 }
-
