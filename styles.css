@@ -129,7 +129,6 @@ header {
   }
   header.active {
     height: 400px;
-    transition: 0.8s;
   }
 }
 body {
