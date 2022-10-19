@@ -18,7 +18,7 @@ section {
 header {
   background-color: var(--black);
   box-shadow: 1px 1px 5px 0px var(--gray);
-  position: sticky;
+  position: fixed;
   top: 0;
   right: 0;
   width: 100%;
@@ -176,7 +176,7 @@ p {
 .top-container {
   padding: 20px;
   /*margin --> clockwise, top, rght, bottom, left*/
-  margin: 0 auto 0 auto;
+  margin: 100px auto 0 auto;
   text-align: center;
   font-family: sans-serif;
 }
