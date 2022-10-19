@@ -211,21 +211,21 @@ p {
 }
 .personal-projects-fb {
   width: 30%;
-  margin: auto 30px auto auto;
+  margin: auto 10px auto auto;
   float: left;
   border: 5px solid gray;
   border-radius: 100%;
 }
 .personal-projects-sg {
   width: 30%;
-  margin: auto 30px auto auto;
+  margin: auto 10px auto auto;
   float: left;
   border: 5px solid gray;
   border-radius: 100%;
 }
 .personal-projects-w2e {
   width: 30%;
-  margin: auto 30px auto auto;
+  margin: auto 10px auto auto;
   float: left;
   border: 5px solid gray;
   border-radius: 100%;
@@ -240,14 +240,14 @@ p {
 }
 .nus-projects-hf {
   width: 30%;
-  margin: auto auto auto 30px;
+  margin: auto auto auto 10px;
   float: right;
   border: 5px solid gray;
   border-radius: 100%;
 }
 .nus-projects-dp {
   width: 30%;
-  margin: auto auto auto 30px;
+  margin: auto auto auto 10px;
   float: right;
   border: 5px solid gray;
   border-radius: 100%;
