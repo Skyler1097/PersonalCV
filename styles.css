@@ -18,7 +18,7 @@ section {
 header {
   background-color: var(--black);
   box-shadow: 1px 1px 5px 0px var(--gray);
-  position: fixed;
+  position: sticky;
   top: 0;
   right: 0;
   width: 100%;
@@ -83,7 +83,7 @@ header {
   overflow: hidden;
 }
 #navbar.active {
-  width: 590px;
+  width: 680px;
 }
 #navbar ul {
   position: absolute;
@@ -106,13 +106,13 @@ header {
   background-color: transparent;
   color: var(--gray);
 }
-@media (max-width: 950px) {
+@media (max-width: 1045px) {
   #navbar {
     position: absolute;
   }
   #navbar.active {
     background-color: var(--black);
-    height: 350px;
+    height: 380px;
     width: 70%;
     align-items: center;
   }
@@ -126,15 +126,17 @@ header {
   }
 }
 body {
-  margin: 0;
   font-family: "Merriweather Sans", sans-serif;
   line-height: 2;
   font-size: 100%;
   text-align: center;
+  width: 100%;
 }
 .dp {
   margin-top: 50px;
   width: 30%;
+  border: 5px solid gray;
+  border-radius: 100%;
 }
 .pro {
   text-decoration: underline;
@@ -171,13 +173,12 @@ hr {
 p {
   font-weight: normal;
   font-family: "Merriweather Sans", sans-serif;
-  margin: 0 auto 0 auto;
   line-height: 2;
 }
 .top-container {
   padding: 20px;
   /*margin --> clockwise, top, rght, bottom, left*/
-  margin: 100px auto 0 auto;
+  margin-top: 120px;
   text-align: center;
   font-family: sans-serif;
 }
@@ -206,22 +207,28 @@ p {
   text-align: left;
   margin: auto;
   font-family: "Merriweather Sans", sans-serif;
-  padding-bottom: 50px;
+  padding-bottom: 30px;
 }
 .personal-projects-fb {
   width: 30%;
   margin: auto 30px auto auto;
   float: left;
+  border: 5px solid gray;
+  border-radius: 100%;
 }
 .personal-projects-sg {
   width: 30%;
   margin: auto 30px auto auto;
   float: left;
+  border: 5px solid gray;
+  border-radius: 100%;
 }
 .personal-projects-w2e {
   width: 30%;
   margin: auto 30px auto auto;
   float: left;
+  border: 5px solid gray;
+  border-radius: 100%;
 }
 .subhead {
   margin: 50px auto auto auto;
@@ -233,15 +240,17 @@ p {
 }
 .nus-projects-hf {
   width: 30%;
-  margin: auto auto 30px auto;
+  margin: auto auto auto 30px;
   float: right;
-  animation: slide_from_right 1s ease-in-out;
+  border: 5px solid gray;
+  border-radius: 100%;
 }
 .nus-projects-dp {
   width: 30%;
-  margin: auto auto 30px auto;
+  margin: auto auto auto 30px;
   float: right;
-  animation: slide_from_right 1s ease-in-out;
+  border: 5px solid gray;
+  border-radius: 100%;
 }
 .work-table {
   margin: auto;
@@ -251,27 +260,27 @@ p {
   padding-bottom: 50px;
 }
 table.work-table {
-  border: 2px solid #000000;
+  border: 3px solid gray;
   text-align: left;
   border-collapse: collapse;
 }
 table.work-table td,
 table.work-table th {
-  border: 1px solid #000000;
+  border: 3px solid gray;
   padding: 9px 5px;
 }
 table.work-table tbody td {
-  font-size: 13px;
+  font-size: 15px;
 }
 table.work-table thead {
-  border-bottom: 3px solid #000000;
+  border-bottom: 3px solid gray;
 }
 table.work-table thead th {
   font-size: 15px;
   font-weight: bold;
   color: #000000;
   text-align: left;
-  border-left: 0px solid #000000;
+  border-left: 3px solid gray;
 }
 table.work-table thead th:first-child {
   border-left: none;
@@ -326,4 +335,6 @@ table.work-table tfoot td {
 }
 a {
   text-decoration: none;
+  cursor: pointer;
 }
+
