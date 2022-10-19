@@ -17,11 +17,12 @@
       <div id="toggle"></div>
       <div id="navbar" class="nav">
         <ul>
-          <li><a href="#About-section" onclick="scrollSmoothTo('About-section')">About</a></li>
-          <li><a href="#Background-section" onclick="scrollSmoothTo('Background')">Background</a></li>
-          <li><a href="#Skills-section" onclick="scrollSmoothTo('Skills-section')">Skills</a></li>
-          <li><a href="#Projects-section" onclick="scrollSmoothTo('Projects-section')">Projects</a></li>
-          <li><a href="#Experiences-section" onclick="scrollSmoothTo('Experiences-section')">Experiences</a></li>
+          <li><a id='About-link'>About</a></li>
+          <li><a id="Background-link">Background</a></li>
+          <li><a id="Skills-link">Skills</a></li>
+          <li><a id="Projects-link">Projects</a></li>
+          <li><a id="Experiences-link">Experiences</a></li>
+          <li><a id="Contact-link">Contact</a></li>
         </ul>
       </div>
     </header>
@@ -39,18 +40,17 @@
         <p data-aos="fade-right">I am an aspiring full stack developer; with a love for smol cats and dogs.</p>
         <p data-aos="fade-right">Self-taught programming and coding, in hopes to create a better world through the power of software.</p>
       </div>
-  </section>
-      <br>
-      <hr>
-  <section id='Background-section'>
-      <div>
+    </section>
+    <br>
+    <hr>
+    <section id='Background-section'>
         <h2>My Background.</h2>
         <div class="background-row">
           <img class="" src="" alt="">
           <p data-aos="fade-left">I am an NUS Mechanical Engineering Bachelor who fell in love with programming.</p>
           <p data-aos="fade-left">I excel at overcoming obstacles with my problem solving and analytical skills.</p>
         </div>
-  </section>
+    </section>
     <br>
     <hr>
   <section id='Skills-section'>
@@ -132,14 +132,13 @@
           <div class="project-content">
           <img class="nus-projects-dp" src="Images/Pendulum(Circle).gif" alt="Pendulum Motion Simulation" data-aos="fade-left">
           <h3>Pendulum Motion Simulation</h3>
-          <p class="project-para">For my final year project, I reimagined the classic wheel mechanism as a double pendulum mechanism as represented visually here. 
+          <p class="project-para">For my final year project, I was tasked to reimagined the classic wheel mechanism as a double pendulum mechanism as represented visually here. 
             This was accomplished using Python to resolve for numerical solutions in 2-dimensional differential equations.</p>
           </div>
           <br>
         </div>
       </div>
     </section>
-    
     <br>
     <hr>
     <section id="Experiences-section">
@@ -170,8 +169,10 @@
           </tr>
       </table>
       </div>
+      </section>
       <br>
       <hr>
+      <section id='Contact-section'>
       <h2>Get In Touch.</h2>
       <div class="contact-me">
         <p>Interested in the projects that I have partook in?</p> 
@@ -208,15 +209,35 @@
         toggle.classList.remove('active');
         header.classList.remove('active');
       }
-      const functionforscroll = function(id){
-        window.scrollTo(0,$(id).offset(),top-85);
+      const about = document.getElementById('About-link');
+      const about_section = document.getElementById('About-section');
+      about.onclick = function(){
+        about_section.scrollIntoView({behavior: 'smooth'});
       }
-      function scrollSmoothTo(elementId) {
-      var element = document.getElementById(elementId);
-      element.scrollIntoView({
-      block: 'start',
-      behavior: 'smooth'
-        });
+      const background = document.getElementById('Background-link');
+      const background_section = document.getElementById('Background-section');
+      background.onclick = function(){
+        background_section.scrollIntoView({behavior: 'smooth'});
+      }
+      const skills = document.getElementById('Skills-link');
+      const skills_section = document.getElementById('Skills-section');
+      skills.onclick = function(){
+        skills_section.scrollIntoView({behavior: 'smooth'});
+      }
+      const projects = document.getElementById('Projects-link');
+      const projects_section = document.getElementById('Projects-section');
+      projects.onclick = function(){
+        projects_section.scrollIntoView({behavior: 'smooth'});
+      }
+      const experiences = document.getElementById('Experiences-link');
+      const experiences_section = document.getElementById('Experiences-section');
+      experiences.onclick = function(){
+        experiences_section.scrollIntoView({behavior: 'smooth'});
+      }
+      const contact = document.getElementById('Contact-link');
+      const contact_section = document.getElementById('Contact-section');
+      contact.onclick = function(){
+        contact_section.scrollIntoView({behavior: 'smooth'});
       }
     </script>
   </body>
