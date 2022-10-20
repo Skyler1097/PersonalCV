@@ -13,7 +13,6 @@ html {
   box-sizing: border-box;
 }
 section {
-  /* Matches header height */
   padding-top: 120px;
 }
 header {
