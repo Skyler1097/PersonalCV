@@ -229,7 +229,7 @@ html {
     margin: auto;
   }
   .project-para {
-    text-align: left;
+    text-align: justify;
     margin: auto;
     font-family: "Merriweather Sans", sans-serif;
     padding-bottom: 30px;
