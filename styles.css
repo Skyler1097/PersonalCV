@@ -18,15 +18,15 @@ section {
 header {
   background-color: var(--black);
   box-shadow: 1px 1px 5px 0px var(--gray);
-  position: absolute;
+  position: sticky;
   top: 0;
-  right: 0;
   width: 100%;
   display: flex;
   justify-content: space-between;
   z-index: 999;
 }
 .logo {
+  position: sticky;
   display: block;
   color: var(--white);
   font-size: 60px;
