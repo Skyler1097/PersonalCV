@@ -114,7 +114,8 @@ html {
     #navbar.active {
       background-color: var(--black);
       height: 380px;
-      width: 70%;
+      width: 100%;
+      margin-left: 20%;
       align-items: center;
     }
     #navbar ul {
@@ -127,6 +128,9 @@ html {
     }
     header.active {
       height: 400px;
+    }
+    header.active .logo {
+      display: none;
     }
     section {
       padding-top: 400px;
