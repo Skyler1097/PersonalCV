@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans&family=Montserrat&family=Kalam&display=swap" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
-  <body>
+  <body id='logo-section'>
     <header id="header">
       <a class="logo">TK's CV</a>
       <div id="toggle"></div>
@@ -238,6 +238,11 @@
       const contact_section = document.getElementById('Contact-section');
       contact.onclick = function(){
         contact_section.scrollIntoView({behavior: 'smooth'});
+      }
+      const link = document.getElementById('logo-link');
+      const link_section = document.getElementById('logo-section');
+      link.onclick = function(){
+        link_section.scrollIntoView({behavior: 'smooth'});
       }
     </script>
   </body>
