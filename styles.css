@@ -13,7 +13,8 @@ html {
   box-sizing: border-box;
 }
 section {
-  padding-top: 100px;
+  /* Matches header height */
+  padding-top: 120px;
 }
 header {
   background-color: var(--black);
