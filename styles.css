@@ -204,7 +204,7 @@ p {
 }
 .top-container {
   /*margin --> clockwise, top, rght, bottom, left*/
-  margin-top: 100px;
+  margin-top: 75px;
   text-align: center;
   font-family: sans-serif;
 }
