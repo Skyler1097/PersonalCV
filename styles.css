@@ -33,7 +33,7 @@ header {
   text-align: left;
   padding-left: 60px;
   top: 10px;
-  font-family: "Montserrat", cursive;
+  font-family: 'Kaushan Script', cursive;
   background-color: var(--black);
 }
 #toggle {
@@ -169,7 +169,7 @@ h1 {
   color: #4285f4;
   font-size: 562.5%;
   margin: 0 auto 0 auto;
-  font-family: "Kalam", cursive;
+  font-family: 'Prata', cursive;
 }
 .subhead-head {
   color: #f4b400;
@@ -178,7 +178,7 @@ h1 {
 h2 {
   color: #0f9d58;
   font-weight: bold;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Kaushan Script', cursive;
   margin: 30px auto 30px auto;
 }
 h3 {
@@ -335,7 +335,7 @@ table.work-table tfoot td {
   -webkit-border-radius: 30;
   -moz-border-radius: 30;
   border-radius: 30px;
-  font-family: sans-serif;
+  font-family: "Merriweather Sans", sans-serif;
   color: #ffffff;
   font-size: 20px;
   padding: 10px 20px 10px 20px;
