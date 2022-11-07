@@ -146,6 +146,9 @@ header {
     width: 100%;
     margin: auto;
   }
+  .dp {
+    width: 50%;
+  }
 }
 body {
   font-family: "Merriweather Sans", sans-serif;
