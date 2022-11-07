@@ -1,4 +1,4 @@
-html {
+shtml {
   scroll-behavior: smooth;
 }
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"); /* import font */
@@ -148,6 +148,7 @@ header {
   }
   img.dp.aos-init.aos-animate {
     width: 50%;
+    align-items: center;
   }
 }
 body {
@@ -355,17 +356,18 @@ table.work-table tfoot td {
   text-decoration: none;
 }
 .footer-link {
-  text-decoration: none;
-  color: #f4b400;
-  font-family: "Montserrat", sans-serif;
-  margin: 30px 20px;
-  font-weight: bold;
+  background-color: white;
+  border-radius: 100%;
+  object-fit: cover;
+  border: 5px solid grey;
+  width: 60px;
 }
 .footer-link:hover {
-  color: #4285f4;
+  background-color: #4285f4;
 }
+
 .copyright {
-  color: #0f9d58;
+  color: #f4b400;
   font-size: 0.75rem;
   padding: 20px 0;
 }
