@@ -33,7 +33,7 @@ header {
   text-align: left;
   padding-left: 60px;
   top: 10px;
-  font-family: 'Kaushan Script', cursive;
+  font-family: "Kaushan Script", cursive;
   background-color: var(--black);
 }
 #toggle {
@@ -146,7 +146,7 @@ header {
     width: 100%;
     margin: auto;
   }
-  .dp {
+  img.dp.aos-init.aos-animate {
     width: 50%;
   }
 }
@@ -172,7 +172,7 @@ h1 {
   color: #4285f4;
   font-size: 562.5%;
   margin: 0 auto 0 auto;
-  font-family: 'Prata', cursive;
+  font-family: "Prata", cursive;
 }
 .subhead-head {
   color: #f4b400;
@@ -181,7 +181,7 @@ h1 {
 h2 {
   color: #0f9d58;
   font-weight: bold;
-  font-family: 'Kaushan Script', cursive;
+  font-family: "Kaushan Script", cursive;
   margin: 30px auto 30px auto;
 }
 h3 {
